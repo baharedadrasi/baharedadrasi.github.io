@@ -13,25 +13,25 @@ Variables
 
 :root {
   /* dark shades of primary color*/
-  --clr-primary-1: hsl(0, 100%, 69%);
+  --clr-primary-1: hsl(345, 13%, 18%);
   --clr-primary-2: hsl(0, 100%, 70%);
   --clr-primary-3: hsl(0, 100%, 73%);
   --clr-primary-4: hsl(0, 100%, 74%);
   /* primary/main color */
-  --clr-primary-5: hsl(350, 100%, 87%);
+  --clr-primary-5: hsl(346, 100%, 77%);
   /* lighter shades of primary color */
   --clr-primary-6: hsl(0, 63%, 91%);
   --clr-primary-7: hsl(0, 63%, 92%);
   --clr-primary-8: hsl(0, 100%, 93%);
   --clr-primary-9: hsl(0, 100%, 94%);
-  --clr-primary-10: hsl(350, 100%, 98%);
+  --clr-primary-10: hsl(22, 66%, 94%);
   /* darkest grey - used for headings */
-  --clr-grey-1: hsl(209, 61%, 16%);
+  --clr-grey-1: hsl(345, 13%, 18%);
   --clr-grey-2: hsl(211, 39%, 23%);
   --clr-grey-3: hsl(209, 34%, 30%);
   --clr-grey-4: hsl(209, 28%, 39%);
   /* grey used for paragraphs */
-  --clr-grey-5: hsl(210, 22%, 49%);
+  --clr-grey-5: hsl(344, 9%, 32%);
   --clr-grey-6: hsl(209, 23%, 60%);
   --clr-grey-7: hsl(211, 27%, 70%);
   --clr-grey-8: hsl(210, 31%, 80%);
@@ -283,7 +283,7 @@ Sidebar
   position: absolute;
   top: 1rem;
   right: 1rem;
-  color: #bb2525;
+  color: var(--clr-primary-5);
   border-color: transparent;
   background-color: transparent;
   font-size: 3rem;
@@ -291,7 +291,7 @@ Sidebar
   transition: var(--transition);
 }
 .close-btn:hover {
-  color: #e66b6b;
+  color: var(--clr-primary-10);
 }
 .sidebar-links {
   text-align: center;
@@ -651,7 +651,7 @@ Skills
   }
 }
 .skills {
-  background: var(--clr-primary-9);
+  background: var(--clr-primary-10);
 }
 .skills h3 {
   color: var(--clr-primary-1);
