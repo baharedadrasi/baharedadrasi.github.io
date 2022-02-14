@@ -949,3 +949,6 @@ Products Page
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
 }
+.project-section {
+  min-height: calc(60vh - 5rem - 198px);
+}
